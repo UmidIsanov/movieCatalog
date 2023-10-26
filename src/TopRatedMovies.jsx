@@ -19,6 +19,7 @@ function TopRatedMovies() {
     })
       .then((response) => response.json())
       .then((data) => {
+        console.log(data);
         setTopMovies(data.results);
       })
       .catch((error) => {
@@ -40,6 +41,9 @@ function TopRatedMovies() {
             <p className="movie-rating">Рейтинг: {movie.vote_average}</p>
             <p className="movie-release-date">
               Дата выхода: {movie.first_air_date}
+            </p>
+            <p className="movieFrom">
+              Страна произвотсво: {movie.origin_country}
             </p>
             <p className="movie-overview">Описание: {movie.overview}</p>
           </div>
