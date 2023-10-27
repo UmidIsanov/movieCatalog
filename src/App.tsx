@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import TopRatedMovies from './TopRatedMovies';
+import TopRatedMovies from './components/TopRatedMovies';
 
 function App() {
   return (
