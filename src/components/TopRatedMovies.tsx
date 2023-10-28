@@ -1,5 +1,5 @@
 import  { useEffect, useState } from "react";
-import "../RatedMovies.css";
+import "../style/RatedMovies.css";
 import { Movie as MovieI } from "../types/movieTypes";
 import MovieCard from "./MovieCard";
 import loaderGIF from '../assets/loaderGif.gif'
@@ -33,7 +33,8 @@ const  [isLoading, setIsLoading]= useState<boolean>(true)
 
 if(isLoading){
 return (
-  <div className="loaderGif"><img src={loaderGIF} alt="loader" /></div>
+  <div className="loaderGif"><img src={loaderGIF} alt="loader" />
+  </div>
 
 )}
 

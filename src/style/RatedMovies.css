@@ -6,11 +6,11 @@
 }
 
 .movies-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
   height: 500px;
+  width: 100%;
 }
 
 .movie-card {
@@ -48,7 +48,7 @@
   font-size: 11px;
 }
 .movieFrom {
-  color: black;
+  color: #666;
 }
 .loaderGif {
   display: flex;
