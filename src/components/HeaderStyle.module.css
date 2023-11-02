@@ -1,0 +1,19 @@
+.header{
+    margin-top: 30px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+   
+    justify-content: space-around;
+    background-color: rgb(41, 37, 44);
+}
+
+.logoImage{
+    width: 260px;
+    height: 200px;
+}
+.logoMovieDB{
+    width: 260px;
+    height: 100px;
+}

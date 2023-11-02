@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "src/components/MovieCard.tsx", "src/components/TopRatedMovies.tsx"  ]
 }
