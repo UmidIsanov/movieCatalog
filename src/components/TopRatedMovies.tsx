@@ -35,7 +35,6 @@ if(isLoading){
 return (
   <div className="loaderGif"><img src={loaderGIF} alt="loader" />
   </div>
-
 )}
 
   return (
