@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.head {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  z-index: 100;
+}
+
+.Image {
+  position: absolute;
+  width: 200px;
+  height: 350px;
+  margin-top: 200px;
+  margin-left: 80px;
+  border-radius: 3%;
+  border-radius: 7px;
+}
+.name {
+  position: relative;
+  color: azure;
+  z-index: 222;
+  top: 225px;
+  left: 400px;
+  width: 300px;
+}
+.birthday {
+  position: relative;
+  color: white;
+  z-index: 2222;
+  top: 225px;
+  left: 400px;
+  width: 600px;
+}
+.place_of_birth {
+  position: relative;
+  color: white;
+  z-index: 2222;
+  top: 227px;
+  left: 400px;
+  width: 600px;
+}
+.biography {
+  position: relative;
+  color: white;
+  z-index: 2222;
+  top: 230px;
+  left: 400px;
+  width: 800px;
+}
+.PersonCard {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 190px;
+  margin: 1px;
+  background-color: transparent !important;
+}
+
+.cardPeopleImage {
+  width: 100%;
+  height: 50%;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+.cardPeopleImage:hover {
+  filter: brightness(55%);
+  cursor: pointer;
+}
+
+.PersonName {
+  color: rgb(236, 233, 233) !important;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+}

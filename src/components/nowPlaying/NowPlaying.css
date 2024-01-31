@@ -1,0 +1,51 @@
+.MovieCard {
+  position: relative;
+  display: inline-block;
+}
+
+.popularity {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 30%;
+  left: 30%;
+  display: none;
+}
+
+.starIcon {
+  position: absolute;
+  display: none;
+  font-size: 58px;
+  top: 30%;
+  left: 75%;
+}
+
+.MovieCard:hover .popularity,
+.MovieCard:hover .starIcon {
+  color: white;
+  display: block;
+}
+
+.cardImage {
+  width: 250px;
+  height: 320px;
+  border-radius: 10px;
+}
+
+.cardImage:hover {
+  filter: brightness(35%);
+  cursor: pointer;
+}
+
+.releaseDate {
+  color: #9ca3af;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.cardTitle {
+  color: rgb(240, 237, 237);
+  font-family: "DM Sans";
+  font-weight: 700;
+  width: 70%;
+}

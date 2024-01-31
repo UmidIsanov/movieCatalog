@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  z-index: 1000;
+}
+.MovieBody {
+  display: flex;
+  justify-content: space-between;
+}
+.backImage {
+  position: absolute;
+  width: 700px;
+  height: 350px;
+  margin-top: 200px;
+  margin-left: 50px;
+  border-radius: 3%;
+}
+.MovieTitle {
+  position: relative;
+  color: azure;
+  z-index: 2222;
+  top: 220px;
+  left: 800px;
+  width: 300px;
+}
+.releaseDate {
+  position: relative;
+  color: azure;
+  z-index: 2222;
+  top: 225px;
+  left: 800px;
+  width: 300px;
+  font-size: 18px;
+}
+.Budget {
+  position: relative;
+  color: azure;
+  z-index: 2222;
+  top: 222px;
+  left: 800px;
+  width: 300px;
+}
+.overView {
+  position: relative;
+  color: azure;
+  z-index: 2222;
+  top: 232px;
+  left: 800px;
+  width: 500px;
+}

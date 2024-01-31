@@ -1,0 +1,22 @@
+.Button{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 36px;
+    width: 250px;
+    height: 50px;
+    margin-left: 550px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+.Button:hover{
+    background-color: rgb(12, 218, 218);
+    color: black;
+}

@@ -1,0 +1,58 @@
+/* ListPopularMovies.css */
+
+.Wrapper-title {
+  margin-left: 90px;
+  margin-bottom: 44px;
+  margin-top: 90px;
+  font-family: DM Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.ListPopular-wrapper {
+  margin-left: 90px;
+  margin-right: 90px;
+  position: relative;
+}
+
+.ListPopularMovieList {
+  display: flex;
+  gap: 20px;
+  overflow-x: hidden;
+}
+
+.ListPopularMovieCard {
+  overflow: hidden;
+  display: block;
+}
+
+.listMovieTitle {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.listReleaseDate {
+  color: #9ca3af;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+.arrowLeft {
+  position: absolute;
+  top: 40%;
+  left: -5%;
+  margin-right: 50px;
+  transform: rotate(180deg);
+  z-index: 1;
+}
+.arrowRight {
+  position: absolute;
+  top: 40%;
+  right: 4%;
+  transform: translateY(-1%);
+  z-index: 1;
+}

@@ -1,0 +1,80 @@
+.carusel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.caruselPhoto {
+  width: inherit;
+  height: 600px;
+  object-fit: cover;
+  filter: brightness(50%);
+  object-position: center;
+  cursor: pointer;
+}
+.arrowLeft {
+  position: absolute;
+  top: 122%;
+  left: 40%;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+.arrowRight {
+  position: absolute;
+  top: 122%;
+  right: 40%;
+  transform: translateY(-1%);
+  z-index: 1;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.movieTitle {
+  left: 5%;
+  position: absolute;
+  color: white;
+  font-size: 48px;
+  width: 450px;
+  font-family: "Cabin", sans-serif;
+  top: 50%;
+}
+.movieTitle:hover {
+  color: red;
+}
+.movieOverview {
+  position: absolute;
+
+  width: 30%;
+  font-size: 14px;
+  color: white;
+  top: 79%;
+  left: 5%;
+}
+.PropsButton {
+  position: absolute;
+  top: 104%;
+  left: -35%;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 14px;
+  width: 220px;
+  height: 50px;
+  margin-left: 540px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.2s;
+  gap: 7px;
+}
+.PropsButton:hover {
+  filter: brightness(70%);
+}
