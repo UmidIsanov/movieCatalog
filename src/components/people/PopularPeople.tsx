@@ -89,8 +89,6 @@ const PopularPeople = () => {
           onClick={showNextCards}
         />
       </div>
-
-      {/* Добавьте маршрут для PersonDetails */}
     </div>
   );
 };

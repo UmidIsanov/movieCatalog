@@ -9,7 +9,6 @@
   object-fit: cover;
   filter: brightness(50%);
   object-position: center;
-  cursor: pointer;
 }
 .arrowLeft {
   position: absolute;
@@ -77,4 +76,11 @@
 }
 .PropsButton:hover {
   filter: brightness(70%);
+}
+.modalPage {
+  position: absolute;
+}
+.PlayIcon {
+  position: absolute;
+  right: 73%;
 }

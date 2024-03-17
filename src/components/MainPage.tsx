@@ -6,6 +6,7 @@ import NowPlayingFilmsList from "./nowPlaying/NowPlayingList";
 import PopularMovies from "./nowPlaying/PopularMovies";
 import PopularPeople from "./people/PopularPeople";
 import TopTvShows from "./nowPlaying/TopTVShows";
+import { Container } from "@mui/material";
 
 const MainPage = () => {
   return (
@@ -14,12 +15,12 @@ const MainPage = () => {
         <NavBar />
         <Carusel />
       </header>
-      <body>
+      <Container>
         <NowPlayingFilmsList />
         <PopularMovies />
         <PopularPeople />
         <TopTvShows />
-      </body>
+      </Container>
     </div>
   );
 };

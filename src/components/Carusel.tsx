@@ -5,6 +5,8 @@ import styles from "./Carusel.module.css";
 import { useEffect } from "react";
 import playIcon from "../assets/Play.svg";
 import { Link } from "react-router-dom";
+import { Container } from "@mui/material";
+import BasicModal from "./UI/modal/BasicModal";
 
 type Movie = {
   id: number;
@@ -92,22 +94,23 @@ const Carusel = () => {
         alt="assa"
         className={styles.caruselPhoto}
       />
-      <Link to={`/movie/${movies[activeImage].id}`}>
-        <h1 className={styles.movieTitle}>{movies[activeImage].title}</h1>
-      </Link>
-      <p className={styles.movieOverview}>{movies[activeImage].overview}</p>
 
-      <button className={styles.PropsButton} onClick={watchTrailer}>
-        <img src={playIcon} alt="playIcon" className="PlayIcon" />
-        Watch trailer
-      </button>
-
-      <img
-        src={arrowLeft}
-        alt="right"
-        onClick={prevImage}
-        className={styles.arrowRight}
-      />
+      <Container>
+        <Link to={`/movie/${movies[activeImage].id}`}>
+          <h1 className={styles.movieTitle}>{movies[activeImage].title}</h1>
+        </Link>{" "}
+        <p className={styles.movieOverview}>{movies[activeImage].overview}</p>
+        <button className={styles.PropsButton} onClick={watchTrailer}>
+          <img src={playIcon} alt="playIcon" className="PlayIcon" />
+          Watch trailer
+        </button>
+        <img
+          src={arrowLeft}
+          alt="right"
+          onClick={prevImage}
+          className={styles.arrowRight}
+        />
+      </Container>
     </div>
   );
 };
