@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavBar.css";
-import movieDBIcon from "../assets/moviedb_icon.png";
-import SearchInput from "./SearchInput";
+import movieDBIcon from "../../assets/moviedb_icon.png";
+import SearchInput from "../SearchComponent/SearchInput";
 import { Link } from "react-router-dom";
 
 const NavBar: React.FC = () => {

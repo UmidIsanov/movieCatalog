@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import movieDBIcon from "../../assets/moviedb_icon.png";
-import SearchInput from "../SearchInput";
+import SearchInput from "../SearchComponent/SearchInput";
 type PersonDetailsProps = {
   person: {
     id?: number;

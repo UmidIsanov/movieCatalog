@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./SearchInput.css";
-import useDebounce from "../hooks/useDebounce";
+import useDebounce from "../../hooks/useDebounce";
 import { Link } from "react-router-dom";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
-import { Movie } from "../types/movieTypes";
+import { Movie } from "../../types/movieTypes";
 import { Container, Button } from "@mui/material";
 
 const SearchInput = () => {

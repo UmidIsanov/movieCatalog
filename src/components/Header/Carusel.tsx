@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 
-import arrowLeft from "../assets/arrow.png";
+import arrowLeft from "../../assets/arrow.png";
 import styles from "./Carusel.module.css";
 import { useEffect } from "react";
-import playIcon from "../assets/Play.svg";
+import playIcon from "../../assets/Play.svg";
 import { Link } from "react-router-dom";
 import { Container } from "@mui/material";
-import BasicModal from "./UI/modal/BasicModal";
 
 type Movie = {
   id: number;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./MainPage.css";
-import Carusel from "./Carusel";
-import NavBar from "./NavBar";
+import Carusel from "./Header/Carusel";
+import NavBar from "./Header/NavBar";
 import NowPlayingFilmsList from "./nowPlaying/NowPlayingList";
 import PopularMovies from "./nowPlaying/PopularMovies";
 import PopularPeople from "./people/PopularPeople";
@@ -10,7 +10,7 @@ import { Container } from "@mui/material";
 
 const MainPage = () => {
   return (
-    <div>
+    <>
       <header className="header">
         <NavBar />
         <Carusel />
@@ -21,7 +21,7 @@ const MainPage = () => {
         <PopularPeople />
         <TopTvShows />
       </Container>
-    </div>
+    </>
   );
 };
 

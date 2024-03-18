@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -21,6 +17,8 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
-, "src/components/MovieCard.tsx", "src/components/TopRatedMovies.tsx"  ]
+    "src",
+    "src/components/MovieCard/MovieCard.tsx",
+    "src/components/TopRatedMovies/TopRatedMovies.tsx"
+  ]
 }
