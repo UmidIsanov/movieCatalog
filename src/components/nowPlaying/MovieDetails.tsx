@@ -179,7 +179,7 @@ const MovieDetails: React.FC = () => {
       </div>
 
       <div className="similarMovies">
-        <h2>Similar Movies</h2>
+        <h2>Similar Movies</h2> 
         <KeyboardArrowLeftIcon
           style={{ fontSize: "74px" }}
           className="leftArrowMovie"

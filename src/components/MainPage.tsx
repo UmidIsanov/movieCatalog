@@ -7,6 +7,7 @@ import PopularMovies from "./nowPlaying/PopularMovies";
 import PopularPeople from "./people/PopularPeople";
 import TopTvShows from "./nowPlaying/TopTVShows";
 import { Container } from "@mui/material";
+import PopularMovie from "./PopularMovie/PopularMovie";
 
 const MainPage = () => {
   return (
@@ -20,6 +21,7 @@ const MainPage = () => {
         <PopularMovies />
         <PopularPeople />
         <TopTvShows />
+        <PopularMovie />
       </Container>
     </>
   );
