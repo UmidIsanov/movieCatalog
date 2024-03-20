@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import PersonCard from "../people/PersonCard";
 import MovieCard from "./MovieCard";
-import NavBar from "../NavBar";
+import NavBar from "../Header/NavBar";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import "./MovieDeteil.css";
@@ -179,7 +179,7 @@ const MovieDetails: React.FC = () => {
       </div>
 
       <div className="similarMovies">
-        <h2>Similar Movies</h2>
+        <h2>Similar Movies</h2> 
         <KeyboardArrowLeftIcon
           style={{ fontSize: "74px" }}
           className="leftArrowMovie"
